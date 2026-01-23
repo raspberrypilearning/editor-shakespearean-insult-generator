@@ -1,45 +1,13 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">What you will make</h2>
+--- task ---
+In this resource you will write a Python script to generate insults, Elizabethan-style. 
+--- /task ---
 
-A brief description - one or two sentences. 
+Click on the **Run** button to try it out.
 
---- print-only ---
-
-![ALT TEXT](images/IMAGE.png)
-
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+<div class="c-project-output">
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/shakespearean-insult-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
-</div><br>
-</html>
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
+<div class="c-project-callout c-project-callout--tip">
 
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c

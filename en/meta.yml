@@ -1,14 +1,29 @@
-title: Project title in sentence case
+---
+title: Shakespearean insult generator
 hero_image: images/banner.png
-description: A short description of the project
+description: In this resource you will write a Python script to generate insults,
+  Elizabethan-style.
+original_url: https://raspberrypi.org/learning/shakespearean-insult-generator
+theme: red
+duration: 2
+ingredient: false
+curriculum: 3, design-0, programming-3, phys-comp-0, manufacture-0, community-0
+interests: literature
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
 listed: false
-pdf: false
+copyedit: false
+last_tested: "2026-01-23"
 steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+- title: Step 1
+- title: Step 2
+  completion:
+  - engaged
+- title: Step 3
+- title: Step 4
+  completion:
+  - internal
+  - external
