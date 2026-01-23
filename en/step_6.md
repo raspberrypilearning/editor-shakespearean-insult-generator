@@ -15,7 +15,7 @@ Then use the `randint` function from the `random` library to choose a random lin
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 1,4
+line_highlights: 1, 4
 ---
 import random
 with open("insults.csv", "r") as f:
