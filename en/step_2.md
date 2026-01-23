@@ -24,8 +24,8 @@ line_number_start: 1
 line_highlights: 
 ---
 with open("insults.csv", "r") as f:
-  lines = f.readlines()
-  print(lines)
+    lines = f.readlines()
+    print(lines)
 --- /code ---
 </div>
 
