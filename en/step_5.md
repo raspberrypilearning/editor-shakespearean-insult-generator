@@ -24,12 +24,13 @@ with open("insults.csv", "r") as f:
 --- /code ---
 
 --- task ---
+</div>
 
 Click **Run**. You should see a different insult printed.
 
 --- /task ---
 
-</div>
+
 
 <div class="c-project-output">
 <pre>Thou quailing motley-minded measle</pre>
