@@ -14,7 +14,7 @@ Change the final line to first output `Thou`, then each word in the list of word
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 4,5
+line_highlights: 4-5
 ---
 with open("insults.csv", "r") as f:
     lines = f.readlines()
