@@ -33,5 +33,5 @@ with open("insults.csv", "r") as f:
 
 <div class="c-project-output">
 
-![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png){:style="width:50%;"}
+![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png)
 </div>
