@@ -1,4 +1,4 @@
 name: "Shakespearean Insult Generator"
-identifier: "shakespearean-insult-complete"
+identifier: "editor-shakespearean-insult-complete"
 type: 'python'
 build: True
