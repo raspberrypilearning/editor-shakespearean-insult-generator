@@ -32,5 +32,6 @@ with open("insults.csv", "r") as f:
 --- /task ---
 
 <div class="c-project-output">
-<pre>![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png){:style="width:50%;"}</pre>
+
+![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png){:style="width:50%;"}
 </div>
