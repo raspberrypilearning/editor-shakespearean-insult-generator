@@ -2,6 +2,7 @@
 --- task ---
 
 Each line contains three words - the first two are **adjectives** (describing words) and the last is a **noun** (a thing). 
+
 --- /task ---
 
 Change your code so that it only prints the first line in the list. The numbering of the lines always **starts from zero** so the first line in the list is `lines[0]`.

@@ -1,7 +1,9 @@
 <h2 class="c-project-heading--task">Create a sentence</h2>
 --- task ---
+
 Each line has three words.
 You can build a sentence using each word.
+
 --- /task ---
 
 Add code to split the line up wherever there is a comma, and save it as a list of `words`.
