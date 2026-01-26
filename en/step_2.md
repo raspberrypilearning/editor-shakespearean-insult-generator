@@ -12,6 +12,8 @@ Open the `insults.csv` file and look at the contents.
 
 Click back on the `main.py` file. 
 
+--- /task ---
+
 Add code to open `insults.csv` in read mode `"r"`, read all of the contents and output the result:
 
 <div class="c-project-code">
@@ -28,8 +30,6 @@ with open("insults.csv", "r") as f:
     print(lines)
 --- /code ---
 </div>
-
---- /task ---
 
 <div class="c-project-output">
 

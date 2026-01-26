@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
+
 In this resource you will write a Python script to generate insults, Elizabethan-style. 
+
 --- /task ---
 
 Click on the **Run** button to try it out.

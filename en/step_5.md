@@ -2,6 +2,7 @@
 --- task ---
 
 Choose a different line.
+
 --- /task ---
 
 Change the `line_number` variable to another number between 0 and one less than the length. 
