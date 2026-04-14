@@ -1,11 +1,13 @@
-<h2 class="c-project-heading--task">Get a different insult</h2>
---- task ---
+<h2 class="c-project-heading--task">Random insults</h2>
+### Step 1
 
-Choose a different line.
+You can select random words to build a random insult.
 
---- /task ---
 
-Change the `line_number` variable to another number between 0 and one less than the length. 
+
+Add some code to import the `random` library.
+
+Then use the `randint` function from the `random` library to choose a random line from the file to generate the insult. 
 
 <div class="c-project-code">
 --- code ---
@@ -13,24 +15,34 @@ Change the `line_number` variable to another number between 0 and one less than 
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 3
+line_highlights: 1, 4
 ---
+import random
 with open("insults.csv", "r") as f:
   lines = f.readlines()
-  line_number = 32
+  line_number = random.randint(0, len(lines)-1)
   words = lines[line_number].split(",")
   print(f"Thou {words[0]} {words[1]} {words[2]}")
-
 
 --- /code ---
 </div>
 
---- task ---
+### Step 2
 
-Click **Run**. You should see a different insult printed.
+Click **Run**. You should see a _random_ insult printed.
 
---- /task ---
+**Note**: This example is random, so your output will probably be different!
+
 
 <div class="c-project-output">
-<pre>Thou quailing motley-minded measle</pre>
+<pre>Thou mewling idle-headed lewdster</pre>
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+- The line chosen will be a line between 0 and the number of lines available minus one.
+- The random choice needs to be between 0 and the length minus one because the line numbering starts at 0. For example, in the list `['a', 'b', 'c']`, the length of the list is 3 because it contains 3 items, but the last item in the list is numbered `2` because the numbering system starts with 0.
+
 </div>
