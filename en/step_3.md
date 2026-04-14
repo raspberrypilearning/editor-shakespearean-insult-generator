@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Create a sentence</h2>
+
 ### Step 1
 
 Each line has three words.

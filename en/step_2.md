@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Lists in Python</h2>
+
 ### Step 1
 
 Each line contains three words - the first two are **adjectives** (describing words) and the last is a **noun** (a thing). 
