@@ -1,13 +1,16 @@
 <h2 class="c-project-heading--task">Open and read from a file</h2>
 
-### Step 1
+Open the `insults.csv` file and look at the contents.
 
-Open the `insults.csv` file and look at the contents. 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
+## Step 1
+
+<div class="c-project-output">
 ![The code editor sidebar with a pink arrow pointing to the file 'insults.csv'](images/insults.png){:style="width:50%;"}
+</div>
 
-
-### Step 2
+## Step 2
 
 Click back on the `main.py` file. 
 
@@ -33,3 +36,7 @@ with open("insults.csv", "r") as f:
 
 ![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png)
 </div>
+
+## Now run your code
+
+Confirm the observable result.

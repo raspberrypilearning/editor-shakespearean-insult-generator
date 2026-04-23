@@ -1,9 +1,10 @@
 <h2 class="c-project-heading--task">Get a different insult</h2>
 
-### Step 1
-
 Choose a different line.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Change the `line_number` variable to another number between 0 and one less than the length. 
 
@@ -25,7 +26,7 @@ with open("insults.csv", "r") as f:
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run**. You should see a different insult printed.
 
@@ -33,3 +34,7 @@ Click **Run**. You should see a different insult printed.
 <div class="c-project-output">
 <pre>Thou quailing motley-minded measle</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

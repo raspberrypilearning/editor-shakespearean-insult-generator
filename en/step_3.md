@@ -1,10 +1,12 @@
 <h2 class="c-project-heading--task">Create a sentence</h2>
 
-### Step 1
-
 Each line has three words.
-You can build a sentence using each word.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
+
+You can build a sentence using each word.
 
 Add code to split the line up wherever there is a comma, and save it as a list of `words`.
 
@@ -27,7 +29,7 @@ with open("insults.csv", "r") as f:
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run** to check the result looks like this.
 
@@ -35,3 +37,7 @@ Click **Run** to check the result looks like this.
 <div class="c-project-output">
 <pre>Thou artless base-court apple-john</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Random insults</h2>
 
-### Step 1
-
 You can select random words to build a random insult.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
+## Step 1
 
 Add some code to import the `random` library.
 
@@ -28,7 +28,7 @@ with open("insults.csv", "r") as f:
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run**. You should see a _random_ insult printed.
 
@@ -39,11 +39,15 @@ Click **Run**. You should see a _random_ insult printed.
 <pre>Thou mewling idle-headed lewdster</pre>
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - The line chosen will be a line between 0 and the number of lines available minus one.
 - The random choice needs to be between 0 and the length minus one because the line numbering starts at 0. For example, in the list `['a', 'b', 'c']`, the length of the list is 3 because it contains 3 items, but the last item in the list is numbered `2` because the numbering system starts with 0.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.
