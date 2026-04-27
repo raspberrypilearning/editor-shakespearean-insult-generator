@@ -40,4 +40,4 @@ Click **Run** to check the result looks like this.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the first line is turned into an insult that starts with `Thou`.

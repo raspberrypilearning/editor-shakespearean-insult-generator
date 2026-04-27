@@ -39,4 +39,4 @@ with open("insults.csv", "r") as f:
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the text output shows the contents of `insults.csv`.

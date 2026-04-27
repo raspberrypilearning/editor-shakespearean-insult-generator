@@ -50,4 +50,4 @@ Click **Run**. You should see a _random_ insult printed.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that a random insult starting with `Thou` is printed.

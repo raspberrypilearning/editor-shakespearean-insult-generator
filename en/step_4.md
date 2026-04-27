@@ -37,4 +37,4 @@ Click **Run**. You should see a different insult printed.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that changing the line number prints a different insult.

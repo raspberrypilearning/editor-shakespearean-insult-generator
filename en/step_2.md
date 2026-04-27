@@ -35,4 +35,4 @@ Click **Run** and you should see this in Text output.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the first line from `insults.csv` is printed in the text output.
