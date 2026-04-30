@@ -1,14 +1,12 @@
-<h2 class="c-project-heading--task">Create a sentence</h2>
---- task ---
+<h2 class="c-project-heading--task">Get a different insult</h2>
 
-Each line has three words.
-You can build a sentence using each word.
+Choose a different line.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Add code to split the line up wherever there is a comma, and save it as a list of `words`.
+## Step 1
 
-Change the final line to first output `Thou`, then each word in the list of words in turn.
+Change the `line_number` variable to another number between 0 and one less than the length. 
 
 <div class="c-project-code">
 --- code ---
@@ -16,24 +14,27 @@ Change the final line to first output `Thou`, then each word in the list of word
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 4-5
+line_highlights: 3
 ---
 with open("insults.csv", "r") as f:
-    lines = f.readlines()
-    line_number = 0
-    words = lines[line_number].split(",")
-    print(f"Thou {words[0]} {words[1]} {words[2]}")
+  lines = f.readlines()
+  line_number = 32
+  words = lines[line_number].split(",")
+  print(f"Thou {words[0]} {words[1]} {words[2]}")
+
 
 --- /code ---
 </div>
 
---- task ---
+## Step 2
 
-Click **Run** to check the result looks like this.
+Click **Run**. You should see a different insult printed.
 
---- /task ---
 
 <div class="c-project-output">
-<pre>Thou artless base-court apple-john</pre>
+<pre>Thou quailing motley-minded measle</pre>
 </div>
 
+## Now run your code
+
+Run your code and check that changing the line number prints a different insult.

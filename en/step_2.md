@@ -1,37 +1,38 @@
-<h2 class="c-project-heading--task">Open and read from a file</h2>
+<h2 class="c-project-heading--task">Lists in Python</h2>
 
---- task ---
+Each line contains three words - the first two are **adjectives** (describing words) and the last is a **noun** (a thing).
 
-Open the `insults.csv` file and look at the contents. 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-![The code editor sidebar with a pink arrow pointing to the file 'insults.csv'](images/insults.png){:style="width:50%;"}
+## Step 1
 
---- /task ---
-
---- task ---
-
-Click back on the `main.py` file. 
-
---- /task ---
-
-Add code to open `insults.csv` in read mode `"r"`, read all of the contents and output the result:
+Change your code so that it only prints the first line in the list. The numbering of the lines always **starts from zero** so the first line in the list is `lines[0]`.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
-filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 
+line_highlights: 3-4
 ---
 with open("insults.csv", "r") as f:
     lines = f.readlines()
-    print(lines)
+    line_number = 0
+    print(lines[line_number])
+
 --- /code ---
 </div>
 
-<div class="c-project-output">
+## Step 2
 
-![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png)
+Click **Run** and you should see this in Text output.
+
+
+<div class="c-project-output">
+<pre>artless,base-court,apple-john</pre>
 </div>
+
+## Now run your code
+
+Run your code and check that the first line from `insults.csv` is printed in the text output.

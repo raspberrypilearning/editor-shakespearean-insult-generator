@@ -1,12 +1,42 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+<h2 class="c-project-heading--task">Open and read from a file</h2>
 
-In this resource you will write a Python script to generate insults, Elizabethan-style. 
+Open the `insults.csv` file and look at the contents.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Click on the **Run** button to try it out.
+## Step 1
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/shakespearean-insult-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+![The code editor sidebar with a pink arrow pointing to the file 'insults.csv'](images/insults.png){:style="width:50%;"}
+</div>
+
+## Step 2
+
+Click back on the `main.py` file. 
+
+
+Add code to open `insults.csv` in read mode `"r"`, read all of the contents and output the result:
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 
+---
+with open("insults.csv", "r") as f:
+    lines = f.readlines()
+    print(lines)
+--- /code ---
+</div>
+
+<div class="c-project-output">
+
+![The contents of the 'insults.csv' file in the Text output pane](images/csv-contents.png)
+</div>
+
+## Now run your code
+
+Run your code and check that the text output shows the contents of `insults.csv`.

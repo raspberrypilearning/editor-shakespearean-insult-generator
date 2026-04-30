@@ -17,15 +17,16 @@ version: 3
 listed: false
 copyedit: false
 last_tested: "2026-01-23"
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-  completion:
-  - engaged
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-  completion:
-  - internal
-  - external
+  - title: Open and read from a file
+  - title: Lists in Python
+    completion:
+      - engaged
+  - title: Create a sentence
+  - title: Get a different insult
+    completion:
+      - internal
+  - title: Random insults
+    completion:
+      - external
